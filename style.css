@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+*{
+
+}
+.header{
+    width: 100%;
+    height: auto;
+    background: #a07945;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 1px 1px 1px 1px;
+}
+.title{
+    font-family: 'Dancing Script', cursive;
+    color: #d5dadd;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding: 10px;
+    
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: #d5dadd;
+}
+a:hover{
+    color: #d5dadd;
+}
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 700px;
+    margin-top: 10px;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    background: #c2a97d;
+    padding: 10px;
+}
+.section{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+.section:nth-of-type(even){
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+.section-text{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+.section-content{
+    background: #fff;
+    width: 100%;
+    height: auto;
+}
+p{
+    text-align: center;
+    line-height: 1.8;
+}
+@media screen and (max-width: 600px){
+    ul li a {
+        display: none;
+    }
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .header{
+        width: 100%;
+        height: auto;
+    }
+    .main{
+        width: 100%;
+        height: auto;
+    }
+}
